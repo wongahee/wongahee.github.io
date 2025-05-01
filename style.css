@@ -1,0 +1,87 @@
+:root {
+    --background-color: hsl(47, 88%, 63%);
+    --main-color: hsl(0, 0%, 100%);
+    --main-text-color: hsl(0, 0%, 42%);
+    --text-color: hsl(0, 0%, 7%);
+
+    --main-font: 'Figtree', san-serif;
+
+    --font-weight-medium: 500;
+    --font-weight-bold: 800;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    font-family: var(--main-font);
+    background-color: var(--background-color);
+    width: 1440px;
+    height: 85vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    width: 375px;
+    background-color: var(--main-color);
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 8px 8px black;
+}
+
+.card-wrap{
+    padding: 20px;
+}
+
+.main-img-wrap{
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.category{
+    display: inline-block;
+    background-color: var(--background-color);
+    border-radius: 5px;
+    font-weight: var(--font-weight-bold);
+    padding: 7px 15px;
+}
+
+.date{
+
+}
+
+.card-title{
+    font-weight: var(--font-weight-bold);
+}
+
+.card-info{
+    color: var(--main-text-color);
+}
+
+.user-wrap{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.user-image{
+
+}
+
+.user-name{
+    font-weight: var(--font-weight-bold);
+}
+
+.footer { 
+    font-size: 11px; text-align: center; 
+}
+
+.footer a {
+     color: hsl(228, 45%, 44%); 
+}
